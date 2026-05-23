@@ -17,14 +17,18 @@ class Services {
     return db[this.model].findByPk(id);
   }
 
+  async getOne(where) {
+    return db[this.model].findOne( {where: { ...where }} );
+  }
+
   async createNew(dadosDoRegistro) {
     return db[this.model].create(dadosDoRegistro);
   }
 
-  async update(dadosAtualizados, id) {
+  async update(dadosAtualizados, where) {
     const listaDeRegistrosAtualizados = db[this.model].update( 
       dadosAtualizados, {
-        where: { id: id}
+        where: { ...where }
       });
     
     if (listaDeRegistrosAtualizados[0] === 0) {

@@ -9,6 +9,6 @@ module.exports = app => {
     express.json(), 
     pessoas,
     categorias,
-    cursos
+    cursos,
   );
 };
