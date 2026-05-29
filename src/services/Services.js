@@ -29,10 +29,11 @@ class Services {
     return db[this.model].findAndCountAll({ ...options });
   }
 
-  async update(dadosAtualizados, where) {
-    const listaDeRegistrosAtualizados = db[this.model].update( 
-      dadosAtualizados, {
-        where: { ...where }
+  async update(dadosAtualizados, where, transacao = {}) {
+    const listaDeRegistrosAtualizados = await db[this.model]
+      .update( dadosAtualizados, {
+        where: { ...where },
+        transaction: transacao
       });
     
     if (listaDeRegistrosAtualizados[0] === 0) {
