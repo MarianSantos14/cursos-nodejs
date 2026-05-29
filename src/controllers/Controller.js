@@ -23,6 +23,7 @@ class Controller {
       return res.status(500).json({ erro: erro.message });
     }
   }
+  
   async getOne(req, res) {
     const { ...params } = req.params;
     const where = converteIds(params);

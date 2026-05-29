@@ -5,8 +5,8 @@ class Services {
     this.model = nomeDoModel;
   }
 
-  async getAll() {
-    return db[this.model].findAll();
+  async getAll(where = {}) {
+    return db[this.model].findAll({where: {...where}});
   }
 
   async getAllByEScopo(escopo) {
@@ -23,6 +23,10 @@ class Services {
 
   async createNew(dadosDoRegistro) {
     return db[this.model].create(dadosDoRegistro);
+  }
+
+  async getAndCountRegistros(options) {
+    return db[this.model].findAndCountAll({ ...options });
   }
 
   async update(dadosAtualizados, where) {
