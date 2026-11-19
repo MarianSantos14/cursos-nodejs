@@ -25,6 +25,8 @@ Este projeto faz parte dos cursos:
 * [ORM com Node.js: Desenvolvendo uma API com Sequelize e SQLite](https://cursos.alura.com.br/course/orm-node-js-desenvolvendo-api-sequelize-sqlite)
 * [ORM com Node.js: Avançando nas funcionalidades do Sequelize](https://cursos.alura.com.br/course/orm-node-js-funcionalidades-sequelize)
 
+Tecnologias principais: Node.js, JavaScript, Express, Sequelize e SQLite.
+
 ---
 
 ### Funcionalidades
