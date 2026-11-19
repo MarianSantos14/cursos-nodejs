@@ -89,20 +89,20 @@ Antes de começar, você precisa ter instalado:
 * npm (já vem com Node.js).
 * Git — https://git-scm.com/
 
-#### 1. Clone o repositório
+#### 1️⃣ Clone o repositório
 
 ```bash
 git clone https://github.com/MarianSantos14/cursos-nodejs.git
 cd cursos-nodejs
 ```
 
-#### 2. Instale as dependências
+#### 2️⃣ Instale as dependências
 
 ```bash
 npm install
 ```
 
-#### 3. Inicie o servidor
+#### 3️⃣ Inicie o servidor
 
 ```bash
 npm run dev
@@ -112,7 +112,7 @@ npm run dev
 
 ---
 
-### Estrutura do projeto
+### 📁 Estrutura do projeto
 
 ```text
 cursos-nodejs/
@@ -148,7 +148,7 @@ cursos-nodejs/
 
 ---
 
-## Aprendizados
+### Aprendizados
 
 * Desenvolvimento de APIs REST com Node.js e Express.
 * Criação e organização de rotas HTTP.
