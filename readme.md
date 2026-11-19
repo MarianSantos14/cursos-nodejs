@@ -1,8 +1,12 @@
-![Páginas do projeto](docs\pagina.png) 
+![Páginas do projeto](./docs/pagina.png) 
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Node.js-18+-103e76?style=for-the-badge&logo=node.js" /> <img src="https://img.shields.io/badge/Express-4.18-103e76?style=for-the-badge&logo=express" /> <img src="https://img.shields.io/badge/Sequelize-6.32-103e76?style=for-the-badge&logo=sequelize" /> <img src="https://img.shields.io/badge/SQLite-Database-103e76?style=for-the-badge&logo=sqlite" /> <img src="https://img.shields.io/badge/JavaScript-ES6-103e76?style=for-the-badge&logo=javascript" />
+![Node.js](https://img.shields.io/badge/Node.js-18+-103e76?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-4.18-103e76?style=for-the-badge&logo=express)
+![Sequelize](https://img.shields.io/badge/Sequelize-6.32-103e76?style=for-the-badge&logo=sequelize)
+![SQLite](https://img.shields.io/badge/SQLite-Database-103e76?style=for-the-badge&logo=sqlite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-103e76?style=for-the-badge&logo=javascript)
 
 <h1>Courses API</h1>
 
